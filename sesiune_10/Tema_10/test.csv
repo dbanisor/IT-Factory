@@ -1,0 +1,2 @@
+Function name,Args,Kwargs,Result
+template,"('John',)","{'age': 22, 'location': 'London'}","John, age 22, from London has written in a file."
