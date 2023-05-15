@@ -13,7 +13,7 @@ class Student(Person):
 
 class Worker(Person):
     def __init__(self, age, name, job):
-        # Person.__init__(self, age, name)
+        # Person.__init__(self, new_age, name)
         super().__init__(age, name)
         self.job = job
 
