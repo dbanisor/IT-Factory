@@ -18,15 +18,15 @@ class Person:
 
     @classmethod
     def from_dict(cls, row):
-        return cls(row["name"], int(row["age"]), int(row["height"]))
+        return cls(row["name"], int(row["new_age"]), int(row["height"]))
 
     @staticmethod
     def get_field_names():
-        # return ["name", "age", "height"]
+        # return ["name", "new_age", "height"]
         return Person.__dataclass_fields__.keys()
 
     def to_dict(self):
-        return {"name": self.name, "age": self.age, "height": self.height}
+        return {"name": self.name, "new_age": self.age, "height": self.height}
 
 
 def read(filename):
