@@ -21,7 +21,7 @@ student = False
 ''' 3. Utilizeaza functia type pentru a verifica daca au tipul de date asteptat.'''
 
 # print(type(name))
-# print(type(age))
+# print(type(new_age))
 # print(type(height))
 # print(type(student))
 
@@ -34,7 +34,7 @@ modificare in aceeasi variabila (suprascriere). Verifica tipul acesteia.'''
 ''' 5. Foloseste print() si printeaza in consola 4 propozitii folosind cele 4 variabile.
 Rezolva nepotrivirile de tip prin ce modalitate doresti.'''
 
-# print(f"{name} are {age} ani, {height} m inaltime cu aproximatie. Este student? {student}")
+# print(f"{name} are {new_age} ani, {height} m inaltime cu aproximatie. Este student? {student}")
 
 ''' 6. Citeste de la tastatura:
 - numele

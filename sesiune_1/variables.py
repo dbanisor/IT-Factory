@@ -14,7 +14,7 @@ Reguli:
     * numele variabilei trebuie sa inceapa cu litera sau _
     * numele nu poate sa inceapa cu numar
     * numele poate contine doar caractere alfanumerice si _ (0-9, a-z, A-Z, _)
-    * numele sunt case sensitive (age, Age, AGE sunt 3 variabile diferite)
+    * numele sunt case sensitive (new_age, Age, AGE sunt 3 variabile diferite)
 '''
 
 # asa
